@@ -257,13 +257,6 @@ h2 {
     justify-self: center;
 }
 
-@media (max-width: 960px) {
-
-}
-
-@media (min-width: 1440px) {
-
-}
 
 @media (max-width: 768px) {
     .nav-text {
