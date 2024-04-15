@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kreon:wght@300..700&family=Titan+One&family=Voltaire&display=swap');
+/* font-family: "Voltaire", Arial, Sans-Serif; */
+/* font-family: "Dancing Script", Arial, Sans-Serif; */
+/* font-family: "Kreon", Arial, Sans-Serif; */
+/* font-family: "Titan One", Arial, Sans-Serif; */
+:root {
+    --color-1: #402B3A;
+    --color-2: #D63484;
+    --color-3: #FF9BD2;
+    --color-4: #F8F4EC; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
