@@ -194,12 +194,14 @@ h2 {
 }
 
 .founders-container {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     width: 1250px;
     max-width: 100%;
     padding: 4px; 
     margin: 25px 4px; 
     align-items: center;
+    justify-content: center;
     gap: 4px;
     border: 5px dotted var(--color-2); 
     border-radius: 10px;
@@ -209,7 +211,30 @@ h2 {
 .founders-container h2 {
     font-size: 2.75rem;
     text-align: center;
-    color: var(--color-3)
+    color: var(--color-3);
+}
+.karen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.karen-container img {
+    width: 400px; 
+    opacity: .9;
+    border-radius: 12px; 
+    margin: 8px; 
+
+}
+
+.karen-container p {
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline; 
+    text-decoration-color: var(--color-3)
 }
 .footer-container {
     text-align: center;
