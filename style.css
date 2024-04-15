@@ -266,5 +266,35 @@ h2 {
 }
 
 @media (max-width: 768px) {
-
+    .nav-text {
+        color: var(--color-2);
+        font-size: .8rem;
+    
+    }
+    
+    .nav-text a {
+        color: var(--color-4);
+        text-decoration-color: var(--color-2);
+    }
+    
+    .nav-text a:hover {
+        color: var(--color-3);
+        font-size: .9rem; 
+    }
+    .req-container {
+        display: flex;
+        width: 1250px;
+        max-width: 100%;
+        height: 400px;
+        max-height: 100%;
+        padding: 4px; 
+        margin: 25px 4px; 
+        align-items: center;
+        border: 5px dotted var(--color-2); 
+        border-radius: 10px;
+        background-image: url(img/volume-no-bg.png);
+        background-repeat: no-repeat;
+        background-color: var(--color-4);
+        text-align: left; 
+    }
 }
