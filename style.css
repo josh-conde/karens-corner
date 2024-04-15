@@ -14,3 +14,220 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    color: var(--color-1);
+    font-size: 16px; 
+    line-height: 1.3;
+    font-family: "Kreon", Arial, Sans-Serif;
+    background-color: whitesmoke;
+}
+h1 {
+    color: var(--color-4);
+}
+h2 {
+    color: var(--color-2);
+}
+.main-container {
+    display: flex;
+    max-width: 100%;
+    align-items: center; 
+    flex: 1;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.heading-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+    border-bottom: 6px dotted var(--color-2);
+    margin-bottom: 25px; 
+    background-color: var(--color-1);
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading h1 {
+    font-size: 4rem;
+    font-family: "Dancing Script", Arial, sans-serif; 
+    text-decoration: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--color-2);
+    font-weight: 700;
+    margin-right: 45px;
+}
+
+.heading p {
+    font-size: 1.2rem;
+    color: var(--color-3);
+}
+
+.heading-container .nav {
+    text-align: right;
+    padding-right: 10px; 
+}
+
+.nav-text {
+    color: var(--color-2);
+    font-size: .9rem;
+
+}
+
+.nav-text a {
+    color: var(--color-4);
+    text-decoration-color: var(--color-2);
+}
+
+.nav-text a:hover {
+    color: var(--color-3);
+    font-size: 1.1rem; 
+}
+
+.belong-container {
+    display: flex;
+    width: 1550px; 
+    max-width: 100%;
+    padding: 4px; 
+    margin: 25px 4px; 
+    justify-content: space-around;
+    border: 5px dotted var(--color-3);
+    border-radius: 10px;
+    gap: 8px; 
+    background-color: var(--color-4);
+}
+
+.belong-container h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.belong-container img {
+    max-width: 100%;
+    width: 500px;
+    opacity: .6;
+    border-radius: 4px;
+}
+
+.belong-container span {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.req-container {
+    display: flex;
+    width: 1250px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    padding: 4px; 
+    margin: 25px 4px; 
+    align-items: center;
+    border: 5px dotted var(--color-2); 
+    border-radius: 10px;
+    background-image: url(img/volume.png);
+    background-repeat: no-repeat;
+    background-color: var(--color-4);
+    text-align: left; 
+}
+
+.req-container h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    color: var(--color-3);
+    margin-right: 10px;
+}
+
+.req-container span {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: var(--color-3);
+    font-weight: bold;
+}
+
+.merch-container {
+    display: flex;
+    width: 1550px;
+    max-width: 100%;
+    padding: 20px; 
+    margin: 25px 4px; 
+    align-items: center;
+    gap: 4px;
+    border: 5px dotted var(--color-3); 
+    border-radius: 10px;
+    gap: 20px; 
+    align-items: center;
+    background-color: var(--color-4);
+}
+
+.merch-container h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-right: 10px;
+}
+.merch-container h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Voltaire", Arial, sans-serif;
+}
+
+.items-container img {
+    width: 400px;
+    max-width: 100%;
+    border: 5px dotted var(--color-2); 
+    opacity: .4;
+}
+
+.items-container img:hover {
+    opacity: 1;
+    box-shadow: 2px 8px 2px var(--color-3);
+    width: 405px;
+
+}
+
+.founders-container {
+    display: flex;
+    width: 1250px;
+    max-width: 100%;
+    padding: 4px; 
+    margin: 25px 4px; 
+    align-items: center;
+    gap: 4px;
+    border: 5px dotted var(--color-2); 
+    border-radius: 10px;
+    background-color: var(--color-4);
+}
+
+.founders-container h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    color: var(--color-3)
+}
+.footer-container {
+    text-align: center;
+    display: grid;
+    max-width: 100%;
+    padding: 10px;
+    border-top: 6px dotted var(--color-2);
+    margin-top: 25px; 
+    align-content: center;
+    justify-content: center;
+    color: var(--color-4);
+    background-color: var(--color-1);
+
+}
+
+.footer-container img {
+    width: 200px;
+    border-radius: 10px;
+    opacity: .8;
+    justify-self: center;
+}
